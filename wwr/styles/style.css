@@ -1,8 +1,10 @@
 body {
-    background-color: rgb(240, 185, 194);
+    background-color: rgb(127, 193, 231);
     font-size: 100%;
 }
     
+
+
 img {
     max-width: 100%;
 }
@@ -17,11 +19,43 @@ home-title
 
 h1 {
     font-size: 4em;
-    color: rgb(202, 48, 202);
+    color: rgb(0, 0, 0);
 }
 
 
 h2 {
     font-size: 3em;
-    color: rgb(201, 133, 201);
+    color: rgb(0, 0, 0);
 }
+
+#background {
+    height: 725px;
+}
+
+body {
+    background-color: #82c7f5; 
+}
+header {
+    background-color:rgba(127, 230, 238, 0.7);
+}
+nav a:hover {
+    background-color: rgb(122, 221, 228);
+}
+nav a:hover {
+    background-color: rgb(122, 213, 236);
+    color: #6ec2e4;
+}    
+
+.icon {
+    width: 80px;
+}
+    
+
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}    
+
+
+

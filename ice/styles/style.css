@@ -1,0 +1,39 @@
+body {
+    background-color: pink;
+}
+
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.portrait { 
+    max-width: 40%;
+    
+}
+section.top { 
+    text-align: center;
+    color: white;
+    font-family: Arial;
+}
+
+ol {
+    font-family: Arial;
+    font-weight: bold;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em 
+    
+    
+}
+
+
+li {
+    padding: 0.5em, /*top/bottom left/right */
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
