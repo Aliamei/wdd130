@@ -1,8 +1,13 @@
+
 body {
     background-color: rgb(127, 193, 231);
     font-size: 100%;
 }
     
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
 
 
 img {
