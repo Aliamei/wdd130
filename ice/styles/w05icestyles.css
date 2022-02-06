@@ -1,0 +1,32 @@
+main {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.banner img {
+    width: 100%;
+    display: block
+}
+
+div.circles {
+    text-align: center;
+    background-color: cadetblue;
+}
+
+.circles img { 
+    width: 250px;
+    border: 15px solid black;
+    border-radius: 50%;
+    margin: 50px 25px;
+}
+
+.desk img {
+    width: auto;
+    text-align: center;
+}
+
+.person img {
+    width: auto;
+    text-align: center;
+
+}
