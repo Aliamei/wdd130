@@ -269,7 +269,7 @@ nav a {
 .mountains
 .msg
 .card-img {
-    box-shadow: 5px 5px 10px var(primary-color);
+    box-shadow: 5px 5px 10px var(--primary-color);
 }
 
 .msg h2
