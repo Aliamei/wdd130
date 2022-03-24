@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Component</title>
+    <link rel="stylesheet" href="w12webcomp.css">
+</head>
+<body>
+    <div class="slideshow-container">
+
+        <div class="Slide 1">
+          <div class="1">1 of 3</div>
+          <img src="images/sunset1.jpg" style="width:100%">
+          <div class="sunset1">Sunset1
+        </div>
+      
+        <div class="Slide 2">
+          <div class="2">2 of 3</div>
+          <img src="images/sunset2.jpg" style="width:100%">
+          <div class="text">Sunset 2</div>
+        </div>
+      
+        <div class="Slide 3">
+          <div class="3">3 of 3</div>
+          <img src="images/sunset3.jpg" style="width:100%">
+          <div class="Sunset3">Sunset 3</div>
+        </div>
+      
+      
+        <a class="prev" onclick="Sunset1(-1)">&#10094;</a>
+        <a class="next" onclick="Sunset2(1)">&#10095;</a>
+      </div>
+      <br>
+      
+   
+      <div style="text-align:center">
+        <span class="slideshow-container" onclick="Sunset1(1)"></span>
+        <span class="slideshow-container" onclick="Sunset2(2)"></span>
+        <span class="slideshow-container" onclick="Sunset3(3)"></span>
+      </div>
+
+</body>
+</html>
