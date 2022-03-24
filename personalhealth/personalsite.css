@@ -3,8 +3,8 @@
 
 :root {
 
-  --primary-color: #dbb7cb   ;
-  --secondary-color: #d8a0cf ;
+  --primary-color: #dbb7cb;
+  --secondary-color: #d8a0cf;
   --accent1-color: #e686aa;
   --accent2-color: rgb(231, 177, 177); 
 
@@ -40,12 +40,10 @@ h1 {
   margin: right;
   padding: 1% 30%;
   color: white;
-
 }
 
 nav {
   text-align: center;
-  
 }
 
 nav a {
@@ -53,4 +51,34 @@ nav a {
   font-size: 1.5em;
   color: white;
   text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+main div {
+  width: 25%;
+  display: inline-block;
+  padding: 2.5em;
+}
+
+main div p {
+  vertical-align: top;
+}
+
+footer div {
+  width: 25%;
+  display: inline-block;
+  padding: 2.5em;
+}
+
+.columntwo {
+  width: 40%;
+  display: inline-block;
+  padding: 3%;
+}
+
+main div img {
+  width:75%
 }
