@@ -29,9 +29,10 @@ header {
 }
 
 header img {
-  width: 7em;
-  height: 7em;
+  width: 8em;
+  height: 8.2em;
   float: left;
+  
 }
 
 h1 {
@@ -67,6 +68,7 @@ main div p {
   vertical-align: top;
 }
 
+
 footer div {
   width: 25%;
   display: inline-block;
@@ -78,6 +80,14 @@ footer div {
   display: inline-block;
   padding: 3%;
 }
+
+.columntwo p {
+  display: inline-block;
+  font-size: x-large;
+  padding-inline-start: 2em;
+  
+}
+
 
 main div img {
   width:60%
