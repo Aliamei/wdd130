@@ -97,6 +97,7 @@ main div img {
   font-size: larger;
 }
 
-.life-style h1 {
-  color: black;
+.fitness {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
