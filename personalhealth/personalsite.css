@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
-
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Redressed&display=swap');
 
 :root {
 
@@ -7,12 +6,6 @@
   --secondary-color: #d8a0cf;
   --accent1-color: #e686aa;
   --accent2-color: rgb(231, 177, 177); 
-
- 
-  --heading-font: "IM Fell French Canon SC";
-  --paragraph-font: Lato, Helvetica, sans-serif; 
-
-
   --headline-color-on-white: #8cb1cc;  
   --headline-color-on-color: white;
   --paragraph-color-on-white: #8db9d8; 
@@ -22,6 +15,15 @@
   --nav-background-color: #e9a9cc;
   --nav-hover-link-color: rgb(4, 0, 5);
   --nav-hover-background-color: #90c5f1;
+}
+
+body {
+  font-family: 'Akaya Telivigala', cursive;
+  margin: 0;
+}
+
+h1,h2,h3 {
+  font-family: 'Redressed', cursive; 
 }
 
 header {
@@ -59,10 +61,9 @@ a {
   text-decoration: none;
 }
 
-.columntwo p {
+p {
   display: inline-block;
   font-size: 1.5em;
-  padding-inline-start: 2em;
 }
 
 main div img {
